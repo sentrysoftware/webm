@@ -1,0 +1,16 @@
+name: TestWbem
+info: 
+  port: 5989
+  secured: true
+
+patterns: 
+
+  - predicate: request.getMethod()=="POST" && 
+                request.getHeader("CIMObject")=="root/hitachi/smis" && 
+                request.getHeader("CIMMethod")=="EnumerateInstances" &&
+                request.getBody().matches("(?is).*<CLASSNAME NAME\\s*=\\s*\"HITACHI_FCPort\".*")
+    action: 
+      def body = readXml("response_HITACHI_FCPort.xml");
+      def resp = new com.sentrysoftware.emulation.server.content.xml.EmulatorHttpXmlResponse(request);
+      resp.setContent(body);
+      return resp;
