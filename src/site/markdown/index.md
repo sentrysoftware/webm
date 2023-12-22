@@ -20,10 +20,31 @@ Add WBEM in the list of dependencies in your [Maven **pom.xml**](https://maven.a
 </dependencies>
 ```
 
-Add the following `opens` and `exports` into the arguments:
-```properties
---add-exports java.xml/com.sun.org.apache.xerces.internal.parsers
---add-opens java.base/java.lang java.base/java.util java.base/sun.net.www.protocol.http java.base/sun.security.ssl
+When you embed the WBEM Java Client into your Java application, it's important to configure the Java Virtual Machine (JVM) with the appropriate module-related options. The `--add-exports` and `--add-opens` flags are used to explicitly specify module access and visibility.
+
+### Exporting Packages with `--add-exports`
+
+Use the  `--add-exports` flag to allow modules to access the internal parsers provided by the `com.sun.org.apache.xerces` package in the `java.xml` module:
+
+- `java.xml/com.sun.org.apache.xerces.internal.parsers`
+
+
+### Opening Packages with `--add-opens`
+
+Use the `--add-opens` flag to open the required packages in the `java.base` module:
+
+- `java.base/java.lang`
+- `java.base/java.util`
+- `java.base/sun.net.www.protocol.http`
+- `java.base/sun.security.ssl`
+
+
+### Example Usage
+
+When invoking the `jar` command, include the specified `--add-exports` and `--add-opens` options in the JVM arguments. For example:
+
+```shell
+java -jar --add-exports java.xml/com.sun.org.apache.xerces.internal.parsers --add-opens java.base/java.lang java.base/java.util java.base/sun.net.www.protocol.http java.base/sun.security.ssl your-application.jar
 ```
 
 Use it as follows:
