@@ -1,4 +1,4 @@
-# WBEM Java Utility
+# WBEM Java Client
 
 The Web-Based Entreprise Management (WBEM) Java Client is a library that enables to:
 * Connect to a WBEM Server
