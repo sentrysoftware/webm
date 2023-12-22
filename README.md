@@ -1,11 +1,18 @@
-# oss-maven-template
+# WBEM Java Client
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/sentrysoftware/oss-maven-template)
-![Build](https://img.shields.io/github/actions/workflow/status/sentrysoftware/oss-maven-template/deploy.yml)
-![GitHub top language](https://img.shields.io/github/languages/top/sentrysoftware/oss-maven-template)
-![License](https://img.shields.io/github/license/sentrysoftware/oss-maven-template)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/sentrysoftware/wbem)
+![Build](https://img.shields.io/github/actions/workflow/status/sentrysoftware/wbem/deploy.yml)
+![GitHub top language](https://img.shields.io/github/languages/top/sentrysoftware/wbem)
+![License](https://img.shields.io/github/license/sentrysoftware/wbem)
 
-Repository template for all Sentry open-source Java projects, published on Maven Central.
+This project is a fork of the excellent [Standards Based Linux Instrumentation](https://sourceforge.net/projects/sblim/) ([see also](https://sblim.sourceforge.net/wiki/index.php/Main_Page)).
+
+See **[Project Documentation](https://sentrysoftware.github.io/wbem)** and the [Javadoc](https://sentrysoftware.github.io/wbem/apidocs) for more information on how to use this library in your code.
+
+The Web-Based Enterprise Management (WBEM) Java Client is a library that enables to:
+* Connect to a WBEM Server
+* Execute WQL queries such as EnumerateInstances
+It uses HTTP/HTTPS protocol for that purpose.
 
 ## Build instructions
 
@@ -31,7 +38,7 @@ But it is strongly recommended to only use [GitHub Actions "Release to Maven Cen
 
 ## License
 
-License is Apache-2. Each source file must include the Apache-2 header (build will fail otherwise).
+License is GNU General Lesser Public License (LGPL) version 3.0. Each source file includes the LGPL-3 header (build will fail otherwise).
 To update source files with the proper header, simply execute the below command:
 
 ```bash
