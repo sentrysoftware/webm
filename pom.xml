@@ -3,9 +3,9 @@
 
 	<groupId>org.sentrysoftware</groupId>
 	<artifactId>wbem</artifactId>
-	<name>WbeM Java Client</name>
+	<name>WBEM Java Client</name>
 	<version>1.0.00-SNAPSHOT</version>
-	<description>WbeM Java Client</description>
+	<description>WBEM Java Client</description>
 	<packaging>jar</packaging>
 
 	<organization>

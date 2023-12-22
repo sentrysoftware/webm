@@ -19,7 +19,7 @@ package org.sentrysoftware.wbem.sblim.cimclient.internal.cimxml.sax.node;
 
 /*-
  * ╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲
- * WbeM Java Client
+ * WBEM Java Client
  * ჻჻჻჻჻჻
  * Copyright (C) 2023 Sentry Software
  * ჻჻჻჻჻჻

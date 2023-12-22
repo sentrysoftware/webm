@@ -28,7 +28,7 @@ package org.sentrysoftware.wbem.sblim.slp.internal.sa;
 
 /*-
  * ╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲
- * WbeM Java Client
+ * WBEM Java Client
  * ჻჻჻჻჻჻
  * Copyright (C) 2023 Sentry Software
  * ჻჻჻჻჻჻

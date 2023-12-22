@@ -39,7 +39,7 @@ package org.sentrysoftware.wbem.javax.wbem.client;
 
 /*-
  * ╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲
- * WbeM Java Client
+ * WBEM Java Client
  * ჻჻჻჻჻჻
  * Copyright (C) 2023 Sentry Software
  * ჻჻჻჻჻჻

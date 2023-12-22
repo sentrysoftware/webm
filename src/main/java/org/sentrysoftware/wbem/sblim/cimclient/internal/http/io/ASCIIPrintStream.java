@@ -26,7 +26,7 @@ package org.sentrysoftware.wbem.sblim.cimclient.internal.http.io;
 
 /*-
  * ╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲╱╲
- * WbeM Java Client
+ * WBEM Java Client
  * ჻჻჻჻჻჻
  * Copyright (C) 2023 Sentry Software
  * ჻჻჻჻჻჻
