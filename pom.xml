@@ -6,7 +6,7 @@
 	<name>WbeM Java Client</name>
 	<version>1.0.00-SNAPSHOT</version>
 	<description>WbeM Java Client</description>
-  <packaging>jar</packaging>
+	<packaging>jar</packaging>
 
 	<organization>
 		<name>Sentry Software</name>
@@ -113,11 +113,6 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>info.picocli</groupId>
-			<artifactId>picocli</artifactId>
-			<version>4.7.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -338,7 +333,7 @@
 
 	<profiles>
 
-			<!-- Profile for releasing the project -->
+		<!-- Profile for releasing the project -->
 		<profile>
 			<id>release</id>
 			<build>
