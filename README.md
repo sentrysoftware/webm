@@ -7,7 +7,7 @@
 
 This project is a fork of the excellent [Standards Based Linux Instrumentation](https://sourceforge.net/projects/sblim/) ([see also](https://sblim.sourceforge.net/wiki/index.php/Main_Page)).
 
-See **[Project Documentation](https://sentrysoftware.github.io/wbem)** and the [Javadoc](https://sentrysoftware.github.io/wbem/apidocs) for more information on how to use this library in your code.
+See **[Project Documentation](https://sentrysoftware.org/wbem)** and the [Javadoc](https://sentrysoftware.org/wbem/apidocs) for more information on how to use this library in your code.
 
 The Web-Based Enterprise Management (WBEM) Java Client is a library that enables to:
 * Connect to a WBEM Server
